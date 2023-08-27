@@ -1,0 +1,39 @@
+nav {
+  background-color: #2e282a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 36px 60px;
+  box-sizing: border-box;
+}
+
+#logo a {
+  padding: 10px;
+  font-family: "Oleo Script", sans-serif;
+  color: white;
+  font-size: 48px;
+  text-decoration: underline;
+  text-shadow: 1px 1px 2px black;
+}
+
+.pages ul {
+  display: flex;
+}
+
+.pages li {
+  margin-left: 20px;
+}
+
+.pages a {
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+  padding: 12px;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.2);
+}
+
+nav .pages a:hover {
+  color: #3b3b3b;
+  background-color: rgba(244, 225, 225, 0.4);
+  border-radius: 6px;
+}

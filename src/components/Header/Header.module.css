@@ -1,0 +1,48 @@
+.hero {
+  height: 800px;
+  background-image: url("./../../assets/images/internship.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.content {
+  width: 900px;
+  background-color: rgba(51, 47, 47, 0.8);
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 50px;
+  text-align: center;
+  padding: 40px 0;
+  margin: 0 auto;
+  position: relative;
+  top: 250px;
+}
+
+.content h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin: 0;
+}
+
+.content p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 12px 0 32px 0;
+}
+
+.content a {
+  text-decoration: none;
+  background-color: rgb(255, 251, 0);
+  padding: 12px 24px;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px #444343;
+}
+
+.content a:hover {
+  background-color: #ffee00;
+}

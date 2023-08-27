@@ -1,0 +1,41 @@
+.highlights {
+  padding: 24px;
+  background: linear-gradient(0deg, rgb(255, 223, 193), rgb(212, 168, 127));
+}
+
+.highlights h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+  color: rgb(59, 65, 64);
+  margin: 36px 0;
+}
+
+#contents {
+  display: flex;
+  margin: auto;
+  margin-bottom: 40px;
+  justify-content: space-around;
+}
+
+.content {
+  text-align: center;
+}
+.content p {
+  text-transform: uppercase;
+  font: 24px;
+  color: rgb(124, 123, 123);
+  margin: 20px 0;
+}
+
+.content img {
+  height: 350px;
+  width: 500px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.content strong {
+  color: rgb(0, 160, 117);
+}
